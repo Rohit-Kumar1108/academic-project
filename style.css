@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    height: 50px;
+    padding-left: 5px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+
+.srkg{
+    color: sienna;
+}
+
+a{
+    margin-left: 15px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover{
+    border-bottom: 3px solid blue;
+}
+
+.hero{
+    height: 600px;
+    background-image: url(srkg.jpeg);
+    background-size: cover;
+
+}
+
+.containt{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.box1{
+    height: 150px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.cont{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.boxx{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box2{
+    height: 170px;
+    width: 250px;
+    /* border: 1px solid black; */
+}
+
+.a{
+    background-image: url(srkg1.jpg);
+    background-size: cover;
+}
+
+.b{
+    background-image: url(srkgbba.jpg);
+    background-size: cover;
+}
+
+.c{
+    background-image: url(srkgarts.jpg);
+    background-size: cover;
+}
+
+.d{
+    background-image: url(srkgty.png);
+    background-size: cover;
+}
+
+.contn{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.e{
+    background-image: url(srkgliberary.jpg);
+    background-size: cover;
+}
+
+.f{
+    background-image: url(playing.jpg);
+    background-size: cover;
+}
+
+.g{
+    background-image: url(seminar.png);
+    background-size: cover;
+}
+
+.h{
+    background-image: url(class.png);
+    background-size: cover;
+}
+
+.footer{
+    height: 250px;
+    width: 1000px;
+    margin-top: 50px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color:black;
+    background-image: url(office.jpg);
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.BTN{
+    background-color: bisque;
+}
+
+.social{
+    height: 60px;
+    width: 220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.soc{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.q{
+    background-image: url(icon2.png);
+    background-size: cover;
+}
+.w{
+    background-image: url(icon1\ -\ Copy.png);
+    background-size: cover;
+}
+
+.r{
+    background-image: url(icon3.png);
+    background-size: cover;
+}
